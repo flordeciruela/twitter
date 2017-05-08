@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  font-size: 11px;
+  color: #14171a;
+}
+
+body {
+  background-color: #ecf4f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  color: #1b95e0;
+}
+
+.gray {
+  color: #657786;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+#home-container {
+  background-color: #F5F8FA;
+  width: 94%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+/*Header*/
+header {
+  background-color: #fff;
+  width: 94%;
+  height: 45px;
+  border-bottom: 0.07em solid rgba(0,0,0,0.15);
+  position: fixed;
+  z-index: 1000;
+}
+
+nav {
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+/*contenido*/
+#art-content {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  top: 45px;
+}
+
+.colum {
+  float: left;
+}
+
+#datos,
+aside {
+  width: 20em;
+  margin: 10px 0;
+}
+
+article {
+  width: 39em;
+  margin: 10px;
+}
+
+.colum-box {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.10);
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+/*columna Datos: */
+#tendencias {
+  text-align: left;
+  padding: 0 10px;
+}
+
+#tendencias p {
+  margin: 10px 0;
+}
+
+#tendencias span {
+  display: block;
+}
+
+/*Columna Twits*/
+.post {
+  border-bottom: 1px solid rgba(0,0,0,0.10);
+  overflow: auto;
+  padding: 10px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.post p {
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+#write-box {
+  background-color: #E8FAF2;
+  overflow: auto;
+  padding: 10px;
+}
+
+#write-box div {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+#write-box input {
+  width: 90%;
+  height: 25px;
+  border-radius: 3px;
+  margin-left: 5px;
+  border: 0.15em solid rgba(27, 149, 224, 0.2);
+}
+
+/* Aside */
+aside .colum-box {
+  padding: 10px;
+  text-align: left;
+}
+
+.user-box {
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.img-seguir {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+aside .text {
+  text-align: left;
+}
+
+.footer {
+  background-color: #F5F8FA;
+  border-top: 1px solid rgba(0,0,0,0.10);
+  margin: 10px -10px -10px -10px;
+  padding: 10px;
+  text-align: left;
+}
+
+#buscar {
+  margin-top: 10px;
+}
